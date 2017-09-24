@@ -1,3 +1,3 @@
 # git_bash_test
-git bash test
-some changes
+
+I wanted to test some git bash commands
