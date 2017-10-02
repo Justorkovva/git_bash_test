@@ -1,0 +1,31 @@
+mkdir - tworzy folder 
+pwd - gdzie jestem
+cd folder - wchodze do tego folderu
+ls - lista zawartości folderu
+cd .. - cofam się do poprzedniego folderu
+touch plik.txt - tworzę plik txt
+git status - czy sa jakies nowe pliki
+vim plik.txt - otwiera plik w edytorze, potem ESC i :x jak chcę wyjść
+git add plik.txt, żeby się dodał "na zielono"
+albo 
+git add -p, żeby zobaczyć zmiany
+git add -A - dodaj wszystko
+git commit -m "komentarz" - commit
+git log - pokazuje wszelkie commity jakie były
+git checkout 02jd73hd72hd72hd7 - wraca do starego commita, ten długi numer
+bierzemy z git loga. Kopiujemy prawym przyciskiem, albo ctrl+insert, 
+shift+insert
+git clone https .... - kopiujemy repozytorium do naszego folderu
+git push origin master - po commicie wpisujemy to i to aktualizuje repo na githubie
+git pull origin master - ściąga tylko zmiany w projekcie
+git branch nazwa-brancha - tworzy nową gałąź, żeby nie robić wsyzstkiego na masterze
+git branch - pokazuje na której jestem
+git checkout nazwa_brancha - zmienia branch
+git merge my-branch - będąc na branchu np. master gdy chcemy na niego wrzucić commity z innego
+git checkout -b nazwa_brancha - tworzy nowy branch i od razu na niego przechodzi
+git blame plik - pokazuje kto którą inijkę robił ostatnio
+touch .gitignore - w środku piszemy nazwe plików które mają nie wchodzić do commitów
+git stash - jak nie chcę jeszczę commitować, to "odkładam na bok" zmiany
+git stash pop - wraca rzeczy które się odłożyło
+jak się sklonuje czyjeś repo i stworzy np. nowy branch z jakimiś zmianami, to można
+wysłać autorowi pull request czy nie chce naszych zmian u siebie.
